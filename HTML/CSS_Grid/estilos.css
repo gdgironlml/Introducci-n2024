@@ -1,0 +1,49 @@
+.grid-container {
+    min-width: 772px;
+    display: grid;
+    grid-template-columns: minmax(172px, 15vw) minmax(400px, 58vw) minmax(200px, 24vw);
+    grid-template-rows: 80px 200px 60px;
+    grid-gap: 10px;
+}
+
+.grid-header {
+    width: 100%;
+    grid-column: span 3;
+    text-align: center;
+    background-color: blue;
+    border-radius: 15px;
+    color: white;
+}
+
+.grid-menu {
+    grid-row: span 2;
+}
+
+.option {
+    width: 100px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    margin: 7px 0px 7px 0px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    border-radius: 7px;
+}
+
+.grid-main {
+
+}
+
+.grid-right {
+    background-color: coral;
+    border-radius: 7px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.grid-footer {
+    grid-column: span 2;
+    align-content: center;
+    background-color: greenyellow;
+    border-radius: 5px;
+}
